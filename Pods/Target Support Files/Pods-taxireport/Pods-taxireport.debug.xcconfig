@@ -1,0 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Appsee/Appsee"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Appsee"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Bolts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ChameleonFramework.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/PNChart.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Parse.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ParseCrashReporting.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SVProgressHUD.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UICountingLabel.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UITextView_Placeholder.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Appsee"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"z" -framework "AVFoundation" -framework "Appsee" -framework "Bolts" -framework "ChameleonFramework" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "PNChart" -framework "Parse" -framework "ParseCrashReporting" -framework "QuartzCore" -framework "SVProgressHUD" -framework "SystemConfiguration" -framework "UICountingLabel" -framework "UITextView_Placeholder"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-taxireport
+PODS_ROOT = ${SRCROOT}/Pods

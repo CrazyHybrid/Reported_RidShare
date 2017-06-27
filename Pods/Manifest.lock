@@ -1,0 +1,38 @@
+PODS:
+  - Appsee (2.2)
+  - Bolts/Tasks (1.6.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Parse (1.13.0):
+    - Bolts/Tasks (~> 1.6)
+  - ParseCrashReporting (1.9.2):
+    - Bolts/Tasks (~> 1.5)
+    - Parse (~> 1.9)
+  - PNChart (0.8.8):
+    - UICountingLabel (~> 1.2.0)
+  - SVProgressHUD (2.0)
+  - UICountingLabel (1.2.0)
+  - UITextView+Placeholder (1.1.1)
+
+DEPENDENCIES:
+  - Appsee
+  - ChameleonFramework/Swift
+  - Parse (~> 1.9)
+  - ParseCrashReporting (~> 1.9)
+  - PNChart
+  - SVProgressHUD
+  - UITextView+Placeholder
+
+SPEC CHECKSUMS:
+  Appsee: c95173e65acaab0ffc8a082c70633c9f5f45d5f0
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  ParseCrashReporting: 33b760facc649d4fd99eef8f35dcda6a406099e5
+  PNChart: 25f91e9c4688af49c3647489760624d037f5383f
+  SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  UITextView+Placeholder: a6fc3e0378f3870036ec562a7537cbf6dbae4bf6
+
+COCOAPODS: 0.39.0
